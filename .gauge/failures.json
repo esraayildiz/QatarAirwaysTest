@@ -1,0 +1,9 @@
+{
+	"Args": [
+		"run",
+		"--dir=C:\\Dev\\workspace\\QatarAutomationTest"
+	],
+	"FailedItems": [
+		"specs\\QatarAirways.spec:5"
+	]
+}

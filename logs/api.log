@@ -1,0 +1,15 @@
+06-09-2022 04:15:41.461 [Gauge] [INFO] Watching directory: C:\Dev\workspace\QatarAutomationTest\specs
+06-09-2022 04:15:41.463 [Gauge] [DEBUG] Found 1 files
+06-09-2022 04:15:41.467 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-09-2022 04:15:41.469 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-09-2022 04:15:41.469 [Gauge] [DEBUG] Adding specs from C:\Dev\workspace\QatarAutomationTest\specs\QatarAirways.spec
+06-09-2022 04:15:41.469 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-09-2022 04:15:41.469 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64197
+06-09-2022 04:33:12.090 [Gauge] [INFO] Watching directory: C:\Dev\workspace\QatarAutomationTest\specs
+06-09-2022 04:33:12.091 [Gauge] [DEBUG] Found 1 files
+06-09-2022 04:33:12.098 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-09-2022 04:33:12.098 [Gauge] [INFO] Spec file added / modified: C:\Dev\workspace\QatarAutomationTest\specs\QatarAirways.spec
+06-09-2022 04:33:12.099 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-09-2022 04:33:12.100 [Gauge] [DEBUG] Adding specs from C:\Dev\workspace\QatarAutomationTest\specs\QatarAirways.spec
+06-09-2022 04:33:12.100 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-09-2022 04:33:12.100 [Gauge] [INFO] Gauge daemon initialized and listening on port: 63770

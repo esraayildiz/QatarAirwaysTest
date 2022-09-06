@@ -1,0 +1,6 @@
+[
+	"gauge",
+	"run",
+	"--dir=C:\\Dev\\workspace\\QatarAutomationTest",
+	"C:\\Dev\\workspace\\QatarAutomationTest\\specs"
+]

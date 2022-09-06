@@ -1,0 +1,55 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 5995milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5995"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63815"}
+{"logLevel":"info","message":"Listening on port:63815"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectEconomyClass' and 'com.qatar.airways.base.StepImplementation.selectEconomyClass'"}
+{"logLevel":"debug","message":"Found Select economy class in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.checkFlightDateIsCorrect' and 'com.qatar.airways.base.StepImplementation.checkFlightDateIsCorrect'"}
+{"logLevel":"debug","message":"Found Check the trip time is correct in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectOneWay' and 'com.qatar.airways.base.StepImplementation.selectOneWay'"}
+{"logLevel":"debug","message":"Found Select One Way trip type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectFlyDay' and 'com.qatar.airways.base.StepImplementation.selectFlyDay'"}
+{"logLevel":"debug","message":"Found Select Trip Date after 7 days in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.checkPageIsLoad' and 'com.qatar.airways.base.StepImplementation.checkPageIsLoad'"}
+{"logLevel":"debug","message":"Found Check flight selection page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectRandomFlight' and 'com.qatar.airways.base.StepImplementation.selectRandomFlight'"}
+{"logLevel":"debug","message":"Found Select random flight in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectDeparture' and 'com.qatar.airways.base.StepImplementation.selectDeparture'"}
+{"logLevel":"debug","message":"Found Select Berlin as departure airport in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectFlySearch' and 'com.qatar.airways.base.StepImplementation.selectFlySearch'"}
+{"logLevel":"debug","message":"Found Click the search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.appControl' and 'com.qatar.airways.base.StepImplementation.appControl'"}
+{"logLevel":"debug","message":"Found Open and check the app in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.selectDestination' and 'com.qatar.airways.base.StepImplementation.selectDestination'"}
+{"logLevel":"debug","message":"Found Select Istanbul as destionation airport in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.skip' and 'com.qatar.airways.base.StepImplementation.skip'"}
+{"logLevel":"debug","message":"Found Click Skip in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.qatar.airways.base.StepImplementation.switchBookTab' and 'com.qatar.airways.base.StepImplementation.switchBookTab'"}
+{"logLevel":"debug","message":"Found Go to Book in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck the trip time is correct : public void checkFlightDateIsCorrect()"}
+{"logLevel":"debug","message":"\tSelect One Way trip type : public void selectOneWay()"}
+{"logLevel":"debug","message":"\tClick Skip : public void skip() throws InterruptedException"}
+{"logLevel":"debug","message":"\tOpen and check the app : public void appControl()"}
+{"logLevel":"debug","message":"\tCheck flight selection page : public void checkPageIsLoad()"}
+{"logLevel":"debug","message":"\tSelect Trip Date after 7 days : public void selectFlyDay()"}
+{"logLevel":"debug","message":"\tSelect Istanbul as destionation airport : public void selectDestination()"}
+{"logLevel":"debug","message":"\tSelect random flight : public void selectRandomFlight()"}
+{"logLevel":"debug","message":"\tSelect economy class : public void selectEconomyClass()"}
+{"logLevel":"debug","message":"\tGo to Book : public void switchBookTab()"}
+{"logLevel":"debug","message":"\tClick the search button : public void selectFlySearch()"}
+{"logLevel":"debug","message":"\tSelect Berlin as departure airport : public void selectDeparture()"}
+Eyl 06, 2022 3:34:19 AM com.qatar.airways.base.BaseTest StarScenario
+INFO: Starting Android test
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
